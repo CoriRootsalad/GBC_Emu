@@ -53,7 +53,15 @@ u8 cycles = 0;
 
 //Addressing modes
 
-
+/// r8 = 8bit constant
+/// r16 = 16bit constant
+/// r16mem = 16bit memory address
+/// r16stk = 16bit stack pointer
+/// cond = condition (logical)
+/// b3 = 3bit bit index (loc in 8bit value)
+/// imm8 = immeadiate following 8bits
+/// imm16 = immeadiate following 16bits
+/// 
 
 //Opcodes
 
@@ -69,5 +77,5 @@ u8 SCF();   u8 STOP();
 
 //Instruction
 
-
+//TODO: Add lookup table for instruction-set.
 
